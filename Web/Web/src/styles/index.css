@@ -1,0 +1,16 @@
+@import "../assets/fontawesome-5.15.1/css/all.min.css";
+@import "../styles/basics/navbar.css";
+@import "../styles/basics/header.css";
+@import "../styles/basics/content.css";
+@import "../styles/basics/grid.css";
+@import "../styles/basics/button.css";
+@import "../styles/basics/icon.css";
+@import "../styles/basics/main.css";
+@import "../styles/basics/base-dialog.css";
+@import "../styles/basics/dialog-store.css";
+@import "../styles/basics/paging-bar.css";
+@import "../styles/pages/store.css";
+
+.border-red {
+    border: 1px solid red;
+  }

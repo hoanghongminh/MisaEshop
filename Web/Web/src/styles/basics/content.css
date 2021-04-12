@@ -1,0 +1,51 @@
+﻿/*
+    Quy định phần dùng cho content
+*/
+.content {
+	width: calc(100% - 150px);
+	height: calc(100vh - 60px);
+	background-color: #fff;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+	background-color: #e5e6eb;
+}
+.content-body{
+	width: calc(100% - 20px);
+	height: calc(100vh - 80px);
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: red;
+}
+.content-body .content-body-controll{
+	width: 100%;
+	height: 35px;
+	background-color: #2b3173;
+	display: flex;
+}
+.content-body-controll .content-body-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 10px;
+	border-right: 3px solid #2b3173;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.content-body-controll .content-body-button:hover{
+	cursor: pointer;
+	background-color: #2b3173;
+}
+.content-body-controll .content-body-button .m-icon-content{
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.m-button{
+	width: 15px;
+	height: 15px;
+}

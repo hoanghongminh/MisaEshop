@@ -1,0 +1,6 @@
+﻿/*
+    Quy định phần dùng giêng cho trang store
+*/
+.grid-store {
+    height: calc(100vh - 155px);
+}

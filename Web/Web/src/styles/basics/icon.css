@@ -1,0 +1,72 @@
+﻿/*
+    Quy định phần dùng cho icon
+*/
+.icon-add{
+    background-image:url("../../assets/icon/add.png");
+    background-size:contain;
+    width:19px;
+    height:19px;
+}
+.icon-search{
+    background-image:url("../../assets/icon/search.png");
+    background-repeat:no-repeat;
+    background-position:16px center;
+}
+.m-icon-setting {
+    background-image: url('../../assets/icon/setting.png');
+}
+.m-icon-manager {
+    background-image: url('../../assets/icon/manager.png');
+}
+.m-icon-dashboard {
+    background-image: url('../../assets/icon/dashboard.png');
+}
+.m-icon-document {
+    background-image: url('../../assets/icon/document-online.png');
+}
+.m-icon-store {
+    background-image: url('../../assets/icon/store-online.png');
+}
+.m-icon-report {
+    background-image: url('../../assets/icon/report.png');
+}
+.m-icon-sales {
+    background-image: url('../../assets/icon/sales.png');
+}
+.infor-support{
+    background-image: url('../../assets/icon/ic_support.svg');
+}
+.m-icon-add{
+    background-image: url('../../assets/icon/icon-add.png');
+}
+.m-icon-copy{
+    background-image: url('../../assets/icon/icon-copy.png');
+}
+.m-icon-edit{
+    background-image: url('../../assets/icon/icon-edit.png');
+}
+.m-icon-delete{
+    background-image: url('../../assets/icon/icon-delete.png');
+}
+.m-icon-load{
+    background-image: url('../../assets/icon/icon-load.png');
+}
+.pagi-icon-firstpage{
+    background-image: url('../../assets/icon/icon-backed.png');
+}
+.pagi-icon-prevpage{
+    background-image: url('../../assets/icon/icon-prevpage.png');
+}
+.pagi-icon-nextpage{
+    background-image: url('../../assets/icon/icon-nextpage.png');
+}
+.pagi-icon-lastpage{
+    background-image: url('../../assets/icon/icon-lastpage.png');
+}
+.pagi-icon-loadpage{
+    background-image: url('../../assets/icon/icon-loadpage.png');
+}
+
+
+
+

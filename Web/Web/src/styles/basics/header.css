@@ -1,0 +1,82 @@
+/*
+    Quy định phần dùng cho header
+*/
+.header {
+    float: left;
+    width: calc(100% - 200px);
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header .header-name {
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.header .header-infor {
+    display: flex;
+    align-items: center;
+}
+.header .header-infor .header-select {
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #9e9e9e;
+}
+.header .header-infor .infor-avatar {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../assets/icon/avatar-default.png);
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.header .header-infor .infor-option {
+    width: 10px;
+    height: 10px;
+    background-image: url(../../assets/icon/i_arrow_up_small.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.infor-support{
+    width: 46px;
+    height: 52px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2b3173;
+}
+
+.header .header-infor .infor-noti{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/icon/bell.svg);
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header .header-infor .infor-hell{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/icon/help.svg);
+    background-size: contain;
+    margin-left: 10px;
+    margin-right: -20px;
+}
+.m-header-line{
+    height: 60px;
+    width: 1px;
+    background-color: #2b3173;
+}

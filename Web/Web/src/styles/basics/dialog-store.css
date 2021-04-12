@@ -1,0 +1,254 @@
+
+/**
+    Dialog store
+    */
+    .isHideDialog{
+      display: none;
+  }
+    .m-dialog {
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        right: 0; 
+        /* display: block; */
+      }
+  
+      .m-dialog .dialog-modal {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: .4;
+        z-index: 4;
+      }
+  
+      .m-dialog .dialog-content {
+
+        z-index: 999;
+        background-color: #fff;
+        position: absolute;
+
+        width: 700px;
+        height: 480px;
+        top: calc(50% - 240px);
+        left: calc(50% - 350px);
+      }
+
+      .form-header {
+        width: 100%;
+        height: 40px;
+        background-color: #f1f1f1;
+        border-radius: 4px;
+      }
+  
+      .form-header .title {
+        float: left;
+        margin-left: 15px;
+        height: 100%;
+      }
+
+      .item-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn-x {
+        float: right;
+        height: 100%;
+      }
+      .icon-x {
+        background: url("../../assets/icon/common-icon.png") no-repeat -252px -127px;
+        width: 17px;
+        height: 16px;
+        margin-right: 2px;
+        margin-left: 7px;
+      }
+      .form-header .btn-x .icon-x:hover {
+        cursor: pointer;
+      }
+      
+  /*
+      Dialog body
+      */
+      .form-body {
+        width: 100%;
+        height: auto;
+      }
+      .form-body .content-center{
+        padding: 10px;
+      }
+      .form-body .input-requied {
+        width: 100%;
+        display: flex;
+        margin-bottom: 10px;
+        position: relative;
+      }
+      .form-body .store-left {
+        float: left;
+        display: flex;
+        width: 50%;
+      }
+      .m-dialog input[type="text"],
+      .m-dialog textarea,
+      .m-dialog select {
+        width: 82%;
+        margin-left: 10px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 3px;
+        resize: vertical;
+        outline: none;
+        font-family: "GoogleSans-Regular";
+      }
+      .m-dialog input[type="text"]:focus{
+        border: 1px solid #777ba7;
+      }
+      .m-dialog textarea:focus{
+        border: 1px solid #777ba7;
+      }
+      .m-dialog  select:focus{
+        border: 1px solid #777ba7;
+      }
+      .border-input-requied{
+        border: 1px solid #ccc;
+      }
+      .label-requied{
+        color: red;
+      }
+      .store-left .input-title {
+        width: 34%;
+        margin-top: 16px;
+      }
+      .form-body .input-requied .input-title {
+        width: 16%;
+        margin-top: 10px;
+      }
+      .form-body .store-right {
+        float: right;
+        display: flex;
+        margin-left: 2%;
+        width: 48%;
+      }
+      .store-right .input-title {
+        width: 23%;
+        margin-top: 16px;
+        margin-right: 26px;
+      }
+      .input-notrequied {
+        width: 66% !important;
+        margin-left: 4px !important;
+        margin-top: 10px !important;
+      }
+/* footer-dialog */
+
+      .form-footer {
+        width: 100%;    
+        height: 59px;
+        border-top: 1px solid #bbbbbb;
+        background-color: white;
+        border-radius: 4px;
+      }
+      .store-left-footer {
+        padding-left: 20px;
+        float: left;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: #303679; 
+      }
+      .icon-help{
+        background-image: url("../../assets/icon/icon-questionss.png");
+        color: #303679;
+        /* background-size: contain; */
+        background-repeat: no-repeat;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        background-position:4px 3px;
+      }
+      .form-footer .store-right-footer {
+        float: right;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+      }
+      .form-footer .store-right-footer button {
+        border-radius: 4px;
+        margin-right: 10px;
+        height: 35px;
+        width: auto;
+        outline: none;
+        border: none;
+      }
+      .form-footer .store-right-footer .btn-save {
+        background-color: #2b3173;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .form-footer .store-right-footer .btn-add {
+        width: 165px;
+        background-color: white;
+        border: 2px solid #777ba7;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: #2b3173;
+      }
+      .store-right-footer .btn-save .icon-save {
+        background: url("../../assets/icon/common-icon.png") no-repeat -330px -129px;
+        width: 11px;
+        height: 11px;
+        margin-right: 10px;
+      }
+      .store-right-footer .btn-save:hover {
+        cursor: pointer;
+        background-color: #777ba7;
+      }
+      .store-right-footer .btn-save:focus{
+        background-color: #777ba7;
+        color: white;
+      }
+      .store-right-footer .btn-add .icon-add {
+        background: url("../../assets/icon/common-icon.png") no-repeat -29px -130px;
+        width: 11px;
+        height: 11px;
+        margin-right: 7px;
+      }
+      .form-footer .store-right-footer .btn-cancel {
+        width: auto;
+        height: 35px;
+        margin-top: 0px;
+        margin-right: 10px;
+        background-color: white;
+        color: #2b3173;
+        outline: none;
+        border-radius: 4px;
+  }
+  .form-footer .store-right-footer .btn-cancel:hover {
+    cursor: pointer;
+    background-color: #777ba7;
+    color: white;
+  }
+  .form-footer .store-right-footer .btn-cancel:focus{
+    background-color: #777ba7;
+    color: white;
+  }
+  .store-right-footer .btn-add:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #777ba7;
+  }
+  .store-right-footer .btn-add:focus{
+    background-color: #e4e5eb;
+    color: white;
+  }
+  .clear{
+    clear: both;
+  }
+  

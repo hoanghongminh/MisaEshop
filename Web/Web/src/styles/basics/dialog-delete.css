@@ -1,0 +1,112 @@
+﻿
+/*
+    Dialog xác nhận xóa
+*/
+.isHideConfirmDelete{
+    display: none;
+}
+
+.m-dialog-close {
+	height: 100%;
+	height: 100%;
+}
+
+.m-dialog-close .dialog-modal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .4;
+	z-index: 4;
+}
+.warn {
+  display: block;
+  width: 475px;
+  position: absolute;
+  border: 1px solid #dedede;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  z-index: 9;
+  border-radius: 4px;
+}
+.warn .warn-header {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #e8e8e8;
+}
+.icon-x:hover {
+  cursor: pointer;
+}
+.warn-body {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.warn-body .icon-warn {
+  background-image: url(../../assets/icon/icon-popup.png);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  width: 50px;
+  height: 42px;
+  margin-left: 24px;
+  background-position: -165px -2px;
+}
+.warn .btn-footer {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #e8e8e8;
+}
+.warn .btn-footer .btn-warn {
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+.btn-footer .btn-delete {
+  background-color: #e14c4c;
+  padding-left: 10px;
+  outline: none;
+  color: white;
+  margin-right: 10px;
+}
+.btn-footer .btn-delete .icon-delete {
+  background: url("../../assets/icon/common-icon.png") no-repeat -1080px -129px;
+  width: 10px;
+  height: 12px;
+  margin-right: 9px;
+  margin-top: -3px;
+}
+.btn-footer .btn-delete:hover {
+  background-color: #e41717;
+  cursor: pointer;
+}
+.btn-footer .btn-warn button {
+  height: 35px;
+  width: 80px !important;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+strong{
+	font-size: 15px;
+}
+.m-close-delete{
+  width: 70px;
+  height: 35px;
+  background: white;
+  cursor: pointer;
+  color: #2b3173;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 4px;
+}
+.m-close-delete:hover{
+  background-color: #777ba7;
+  color: white;
+}
