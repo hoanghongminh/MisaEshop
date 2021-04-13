@@ -7,7 +7,7 @@ namespace MISA.ApplicationCore.Interfaces
 {
     /// <summary>
     /// Interface kế thừ IBaseService có các phương thức riêng của quận huyện.
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     /// </summary>
     public interface IDistrictService:IBaseService<District>
     {

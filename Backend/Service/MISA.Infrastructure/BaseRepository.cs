@@ -16,7 +16,7 @@ namespace MISA.Infrastructure
     /// <summary>
     /// LỚp thực thi các thao tác tương tác với cơ sở dữ liệu
     /// </summary>
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     /// <typeparam name="T">Đối tượng</typeparam>
     public class BaseRepository<T> : IBaseRepository<T>, IDisposable where T : BaseEntity
     {
@@ -49,6 +49,12 @@ namespace MISA.Infrastructure
             var entitie = _dbConnection.Query<T>($"Proc_Get{_tableName}ById", parameter, commandType: CommandType.StoredProcedure).FirstOrDefault();
             return entitie;
         }
+        /// <summary>
+        /// Hàm lấy dữ liệu
+        /// CreateBy: hhminh(13/4/2021)
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
         public int Add(T entity)
         {
             var rowAffects = 0;
@@ -71,6 +77,13 @@ namespace MISA.Infrastructure
             }
             return rowAffects;
         }
+
+        /// <summary>
+        /// Hàm thực hiện update dữ liệu
+        /// CreateBy: hhminh(13/4/2021)
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
         public int Update(T entity)
         {
             var rowAffect = 0;
@@ -92,6 +105,12 @@ namespace MISA.Infrastructure
             return rowAffect;
         }
 
+        /// <summary>
+        /// Hàm thực hiện xóa dữ liệu
+        /// CreateBy: hhminh(13/4/2021)
+        /// </summary>
+        /// <param name="entityId"></param>
+        /// <returns></returns>
         public int Delete(Guid entityId)
         {
             var rowAffect = 0;
@@ -151,7 +170,7 @@ namespace MISA.Infrastructure
         /// <param name="entity"></param>
         /// <param name="property"></param>
         /// <returns>Đối tượng</returns>
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         public T GetEntityByProperty(T entity, PropertyInfo property)
         {
             var propertyName = property.Name;

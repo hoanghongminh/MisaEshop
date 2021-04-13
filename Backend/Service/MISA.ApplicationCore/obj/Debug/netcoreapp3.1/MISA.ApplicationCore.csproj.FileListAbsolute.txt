@@ -9,3 +9,14 @@ C:\Users\Admin\Downloads\Service\Service\MISA.ApplicationCore\obj\Debug\netcorea
 C:\Users\Admin\Downloads\Service\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Downloads\Service\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
 C:\Users\Admin\Downloads\Service\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.Properties.Resources.resources
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\Admin\Desktop\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb

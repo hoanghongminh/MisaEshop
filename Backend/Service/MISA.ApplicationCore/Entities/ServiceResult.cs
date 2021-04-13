@@ -7,22 +7,23 @@ namespace MISA.ApplicationCore.Entities
 {
     /// <summary>
     /// Đối tượng để chứa các kết quả trả về từ Service
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     /// </summary>
     public class ServiceResult
     {
         /// <summary>
         /// Đối tượng chứa các thay đổi trong quá trình thực hiện nghiệp vụ hoặc các thông báo lỗi
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         /// </summary>
         public object Data { get; set; }
         /// <summary>
         /// Thông báo
-        /// CreatedBy:
+        /// CreatedBy: hhminh(13/4/2021)
         /// </summary>
         public string Messenger { get; set; }
         /// <summary>
         /// Mã lỗi tự định nghĩa
+        /// CreatedBy: hhminh(13/4/2021)
         /// </summary>
         public MISACode MISACode { get; set; }
     }

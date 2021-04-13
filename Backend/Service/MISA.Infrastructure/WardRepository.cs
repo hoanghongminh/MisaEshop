@@ -10,7 +10,7 @@ namespace MISA.Infrastructure
     /// <summary>
     /// Lớp kế thừa BaseRepository và tương tác với đối tượng phường/xã
     /// </summary>
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     public class WardRepository:BaseRepository<Ward>, IWardRepository
     {
         public WardRepository(IConfiguration configuration) : base(configuration)

@@ -365,11 +365,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
       "projectName": "MISA.eShop.Web",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.eShop.Web\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -386,11 +386,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
+            "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
             },
-            "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Downloads\\Service\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
+            "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
             }
           }
         }

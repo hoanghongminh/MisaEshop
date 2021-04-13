@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace MISA.eShop.Web.Api
 {
     /// <summary>
     /// Sử lý các yêu cầu từ Client
-    /// CreatedBy:
+    /// CreatedBy: hhminh(13/4/2021)
     /// </summary>
     [Route("api/v1/[controller]")]
     [ApiController]
@@ -33,7 +33,7 @@ namespace MISA.eShop.Web.Api
         /// <summary>
         /// Lấy danh sách đối tượng
         /// </summary>
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         /// <returns>Danh sách</returns>
         [HttpGet]
         public IActionResult Get()
@@ -46,7 +46,7 @@ namespace MISA.eShop.Web.Api
         /// Lấy danh sách đối tượng theo khóa chính
         /// </summary>
         /// <param name="id">Khóa chính của đối tượng</param>
-        /// CreatedBy:
+        /// CreatedBy:hhminh(13/4/2021)
         /// <returns>Đối tượng</returns>
         [HttpGet("{id}")]
         public IActionResult Get(Guid id)
@@ -66,7 +66,7 @@ namespace MISA.eShop.Web.Api
         /// Thêm đối tượng
         /// </summary>
         /// <param name="entity">Đối tượng</param>
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         /// <returns>Đối tượng mà service trả về</returns>
         [HttpPost]
         public IActionResult Post(T entity)
@@ -86,7 +86,7 @@ namespace MISA.eShop.Web.Api
         /// Sửa đối tượng
         /// </summary>
         /// <param name="entity">Đối tượng</param>
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         /// <returns>Đối tượng mà service trả về</returns>
         [HttpPut]
         public IActionResult Put([FromBody] T entity)
@@ -106,7 +106,7 @@ namespace MISA.eShop.Web.Api
         /// Xóa đối tượng theo khóa chính
         /// </summary>
         /// <param name="id">Khóa chính của đối tượng</param>
-        /// CreatedBy:
+        /// CreatedBy:hhminh(13/4/2021)
         /// <returns>Đối tượng mà service trả về</returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)

@@ -6,7 +6,7 @@ namespace MISA.ApplicationCore.Enums
 {
     /// <summary>
     /// MISACode để xác định  trạng thái của việc validate
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     /// </summary>
     public enum MISACode
     {
@@ -29,7 +29,7 @@ namespace MISA.ApplicationCore.Enums
     }
     /// <summary>
     /// Xác định trạng thái của object
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     /// </summary>
     public enum EntityState
     {

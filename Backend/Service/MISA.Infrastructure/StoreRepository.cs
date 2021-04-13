@@ -13,7 +13,7 @@ namespace MISA.Infrastructure
     /// <summary>
     /// Lớp kế thừa BaseRepository và tương tác với đối tượng cửa hàng
     /// </summary>
-    /// CreatedBy:
+    /// CreatedBy:hhminh(13/4/2021)
     public class StoreRepository:BaseRepository<Store>, IStoreRepository
     {
         public StoreRepository(IConfiguration configuration) : base(configuration)

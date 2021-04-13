@@ -13,7 +13,7 @@ namespace MISA.eShop.Web.Api
     /// <summary>
     /// Lớp kế thừa BaseController và sử lý các phương thức riêng của cửa hàng
     /// </summary>
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     public class StoresController : BaseController<Store>
     {
         IStoreService _storeService;

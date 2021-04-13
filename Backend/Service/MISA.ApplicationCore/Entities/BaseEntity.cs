@@ -62,38 +62,37 @@ namespace MISA.ApplicationCore.Entities
     }
     /// <summary>
     /// Class chứa các thuộc tính chung nhất mà mọi đối tượng kế thừa
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(13/4/2021)
     /// </summary>
     public class BaseEntity
     {
         #region Propeeties
         /// <summary>
         /// Trạng thái của đối tượng
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         /// </summary>
         public EntityState EntityState { get; set; } = EntityState.AddNew;
         /// <summary>
         /// Ngày tạo bản ghi
-        /// CreatedBy:
+        /// CreatedBy: hhminh(13/4/2021)
         /// </summary>
         public DateTime? CreatedDate { get; set; }
 
         /// <summary>
         /// Người tạo bản ghi
-        /// CreatedBy:
+        /// CreatedBy:hhminh(13/4/2021)
         /// </summary>
         public string CreatedBy { get; set; }
 
         /// <summary>
         /// Ngày sửa đổi bản ghi
-        /// CreatedBy: 
+        /// CreatedBy: hhminh(13/4/2021)
         /// </summary>
         public DateTime? ModifiedDate { get; set; }
 
         /// <summary>
         /// Người sửa đổi bản ghi
-        /// CreatedBy: 
-        /// </summary>
+        /// CreatedBy: hhminh(13/4/2021)
         public string ModifiedBy { get; set; }
         #endregion
     }
