@@ -10,6 +10,7 @@ namespace MISA.ApplicationCore.Services
     /// LỚp kế thừa BaseService và thực thi Interface IWardService riêng của đối tượng phường/xã.
     /// </summary>
     /// CreatedBy:hhminh(14/4/2021)
+    /// CreatedBy:hhminh(13/4/2021)
     public class WardService:BaseService<Ward>, IWardService
     {
         #region DECLARE
