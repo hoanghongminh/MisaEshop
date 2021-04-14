@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8pAh/SgoCRSPiLUQcebKbYXDcUKCVJXd1wc+mviYbT5MyU0/c+ZLt1+3YZT1JU88s3gTu27jGJXyJxdJ6/9j4Q==",
+  "dgSpecHash": "ciYQrG10rO/H67e/P5lCKGH6u/I0gjDivnDSmFo/bBaDl4LwlrzE6S2+Jxuu3xSV5JXVY43dAQGWcbQ+6hNDuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\misademo\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
