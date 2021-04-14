@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\hhminh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\misademo\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
       "projectName": "MISA.ApplicationCore",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\misademo\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\misademo\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\obj\\",
+      "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+      "packagesPath": "C:\\Users\\hhminh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hhminh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

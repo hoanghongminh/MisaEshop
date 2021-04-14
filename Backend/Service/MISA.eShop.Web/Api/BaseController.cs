@@ -12,10 +12,6 @@ namespace MISA.eShop.Web.Api
     /// <summary>
     /// Sử lý các yêu cầu từ Client
     /// CreatedBy: hhminh(13/4/2021)
-    ///     /// Sử lý các yêu cầu từ Client
-    /// CreatedBy: hhminh(13/4/2021)
-    ///     /// Sử lý các yêu cầu từ Client
-    /// CreatedBy: hhminh(13/4/2021)
     /// 
     /// </summary>
     [Route("api/v1/[controller]")]
