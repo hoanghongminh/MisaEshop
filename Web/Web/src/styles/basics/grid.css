@@ -15,6 +15,7 @@
   /* overflow-y: scroll; */
   height: 100%;
   /* overflow-x: scroll; */
+  /* hhminh(14/04/2021) */
   overflow-y: scroll;
 }
 table {
@@ -48,8 +49,11 @@ td {
 }
 
 .s-table tbody tr:hover {
-  background-color: #bbbbbb;
+  background-color: #eaeff4;
   cursor: pointer;
+}
+tr:nth-child(2n+1) {
+  background: #f6f6f6;
 }
 
 #style-scroll::-webkit-scrollbar {
@@ -67,12 +71,6 @@ td {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
-
-/* ::-webkit-scrollbar:hover {
-  width: 10px;
-  height: 10px;
-  background-color: red;
-} */
 
 .row {
   background-color: #f0f0f0;

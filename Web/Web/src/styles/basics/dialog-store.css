@@ -64,7 +64,7 @@
         width: 17px;
         height: 16px;
         margin-right: 2px;
-        margin-left: 7px;
+        margin-left: 2px;
       }
       .form-header .btn-x .icon-x:hover {
         cursor: pointer;
@@ -94,8 +94,8 @@
       .m-dialog input[type="text"],
       .m-dialog textarea,
       .m-dialog select {
-        width: 82%;
-        margin-left: 10px;
+        width: 81%;
+        margin-left:10px;
         height: 40px;
         padding: 10px;
         border-radius: 4px;
@@ -122,11 +122,11 @@
       }
       .store-left .input-title {
         width: 34%;
-        margin-top: 16px;
+        margin: 16px -8px 0px 6px;
       }
       .form-body .input-requied .input-title {
         width: 16%;
-        margin-top: 10px;
+        margin: 10px -8px 0px 6px;
       }
       .form-body .store-right {
         float: right;
@@ -140,7 +140,7 @@
         margin-right: 26px;
       }
       .input-notrequied {
-        width: 66% !important;
+        width: 64% !important;
         margin-left: 4px !important;
         margin-top: 10px !important;
       }

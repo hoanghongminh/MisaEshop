@@ -47,13 +47,13 @@ export default {
   props: ["quantityStore", "Stores", "pagi"],
   methods: {
     //Xử lí khi ấn nút trở về trang đầu tiên
-    // CreatedBy: hhminh(12/4/2021)
+    // CreatedBy: hhminh(14/4/2021)
     handleFirstPage: function () {
       this.Page = 1;
       this.$emit("loadData", this.Page);
     },
     //Xử lí khi trở về trang phía trước
-    // CreatedBy: hhminh(12/4/2021)
+    // CreatedBy: hhminh(14/4/2021)
     handlePrevPage: function () {
       if (this.Page > 1) {
         this.Page--;
@@ -61,7 +61,7 @@ export default {
       }
     },
     //Xử lí khi sang trang tiếp theo
-    // CreatedBy: hhminh(12/4/2021)
+    // CreatedBy: hhminh(14/4/2021)
     handleNextPage: function () {
       if (this.Page < this.pagi) {
         this.Page++;
@@ -69,7 +69,7 @@ export default {
       }
     },
     //Xử lí khi về cuối trang
-    // CreatedBy: hhminh(12/4/2021)
+    // CreatedBy: hhminh(14/4/2021)
     handleLastPage: function () {
       this.Page = this.pagi;
       this.$emit("loadData", this.Page);
@@ -77,7 +77,7 @@ export default {
   },
   watch: {
     //Xử lí khi nhập trang thông qua input
-    // CreatedBy: hhminh(12/4/2021)
+    // CreatedBy: hhminh(14/4/2021)
     Page: function () {
       if (this.Page == "") this.$emit("loadData", 1);
       else if (this.Page > 20) this.$emit("loadData", 20);

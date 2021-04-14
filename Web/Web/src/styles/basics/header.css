@@ -53,8 +53,11 @@
 .infor-support{
     width: 46px;
     height: 52px;
+    right: auto;
+    top: 0px;
+    margin: 0px;
     background-size: contain;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-color: #2b3173;
 }
@@ -62,7 +65,7 @@
 .header .header-infor .infor-noti{
     width: 20px;
     height: 20px;
-    background-image: url(../../assets/icon/bell.svg);
+    background-image: url(../../assets/icon/notify.png);
     background-size: contain;
     margin-left: 10px;
     margin-right: 10px;
@@ -70,7 +73,7 @@
 .header .header-infor .infor-hell{
     width: 20px;
     height: 20px;
-    background-image: url(../../assets/icon/help.svg);
+    background-image: url(../../assets/icon/icon_help.png);
     background-size: contain;
     margin-left: 10px;
     margin-right: -20px;

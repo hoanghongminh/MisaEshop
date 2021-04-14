@@ -219,19 +219,19 @@ export default {
   data() {
     return {
       // ĐỐi tượng hiển thị trong combobox
-      // CreatedBy: 
+      // CreatedBy: hhminh(13/4/2021)
       countrys: [],
       provinces: [],
       districts: [],
       wards: [],
       // Đối tượng trả về cho Snackbar
-      // CreatedBy: 
+      // CreatedBy: hhminh(13/4/2021)
       dataSnackBar: {
         msg: "",
         status: true,
       },
       // Biến chức năng
-      // CreatedBy: n
+      // CreatedBy: hhminh(13/4/2021)
       isSaveOrAdd: false,
       isHideToolTip: true,
       isAddOrUpdate: true,
@@ -240,14 +240,14 @@ export default {
   props: ["isHideDialog", "store", "formMode", "isNameDialog"],
   methods: {
     //Sự kiện kích vào nút lưu và thêm mới
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     btnSaveAdd() {
       this.isSaveOrAdd = true;
       this.saveStore();
     },
 
     //Sự kiện hủy trong Dialog
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     btnClose() {
       $("#storeCode_wrang").css("display", "none");
       $("#storeName_wrang").css("display", "none");
@@ -259,7 +259,7 @@ export default {
     },
 
     //Sự kiện nhấn vào nút Lưu/Sửa trong Dialog
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     async saveStore() {
       const me = this;
 
@@ -280,7 +280,7 @@ export default {
       });
 
       // //Focus vào input đầu tiên nếu có lỗi
-      // CreatedBy: 
+      // CreatedBy: hhminh(13/4/2021)
       var inputNotValidate = $(
         'input[validate="false"], textarea[validate="false"]'
       );
@@ -290,7 +290,7 @@ export default {
       }
 
       //Kiểm tra nếu trạng thái là sửa
-      // CreatedBy: 
+      // CreatedBy: hhminh(13/4/2021)
       if (this.formMode == 0) {
         await axios
           .put("http://localhost:52139/api/v1/stores", me.store)
@@ -311,7 +311,7 @@ export default {
           .post("http://localhost:52139/api/v1/stores", me.store)
           .then(() => {
             if (this.isSaveOrAdd == true) {
-              // Gọi hàm thay đổi đối tượng store về giỗng
+              // Gọi hàm thay đổi đối tượng store về rỗng
               this.$emit("changStore", true);
               this.handlingSnackbar(false, "Thêm thành công", true);
               this.$refs.storeCode.focus();
@@ -337,7 +337,7 @@ export default {
     },
 
     // Xử lý Snackbar
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     handlingSnackbar(bool, msg, status) {
       if (bool == true) {
         //Thàng công thì gọi hàm đóng Dialog
@@ -352,7 +352,7 @@ export default {
     },
 
     //Hàm validate dữ liệu nhập vào khi blur
-    // CreatedBy:
+    // CreatedBy: hhminh(13/4/2021)
     isValidate(entity) {
       var value = $("#" + entity).val();
       if (!value) {
@@ -368,28 +368,28 @@ export default {
 
     //Các hàm xử lý dữ liệu vào trong combobox
     // Hàm load dữ liệu của quốc gia
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     async loadCountry() {
       await axios.get("http://localhost:52139/api/v1/countrys").then((res) => {
         this.countrys = res.data;
       });
     },
     // Hàm load dữ liệu của tỉnh thành phố
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     async loadProvince() {
       await axios.get("http://localhost:52139/api/v1/provinces").then((res) => {
         this.provinces = res.data;
       });
     },
     // Hàm load dữ liệu của tỉnh thành phố
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     async loadDistrict() {
       await axios.get("http://localhost:52139/api/v1/districts").then((res) => {
         this.districts = res.data;
       });
     },
     // Hàm load dữ liệu của tỉnh thành phố
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     async loadWard() {
       await axios.get("http://localhost:52139/api/v1/wards").then((res) => {
         this.wards = res.data;
@@ -405,19 +405,19 @@ export default {
   },
   computed: {
     //Lấy tỉnh theo id quốc gia
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     getProvinceByCountry() {
       return this.provinces.filter((x) => x.countryId == this.store.countryId);
     },
     //Lấy quận huyện theo id thành phố
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     getDistrictByProvince() {
       return this.districts.filter(
         (x) => x.provinceId == this.store.provinceId
       );
     },
     //Lấy phường xã theo id quận huyện
-    // CreatedBy:
+    // CreatedBy:hhminh(13/4/2021)
     getWardByDistrict() {
       return this.wards.filter((x) => x.districtId == this.store.districtId);
     },
@@ -464,10 +464,7 @@ export default {
   border: 16px solid;
   border-color: transparent #f63233 transparent transparent;
 }
-/* .talk-bubble-country:after{
-  left: -368px;
-  top: 268px;
-} */
+
 .talktext {
   padding: 0.6em;
 }

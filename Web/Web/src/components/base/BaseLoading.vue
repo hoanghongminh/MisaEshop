@@ -34,7 +34,7 @@ import 'vue-loading-overlay/dist/vue-loading';
             return {
             isLoading: false,
             color: "#019160",
-            loader: "dots", // bars  dots spinner
+            loader: "dots", 
             width: 50,
             height: 50,
             backgroundColor: "#000",

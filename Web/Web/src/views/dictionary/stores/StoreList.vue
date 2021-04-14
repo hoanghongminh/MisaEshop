@@ -108,7 +108,7 @@
                       title="Nhập trạng thái cửa hàng muốn tìm"
                     >
                       <option value="0">Đang hoạt động</option>
-                      <option value="1">Đang đóng cửa</option>
+                      <option value="1">Đã đóng cửa</option>
                     </select>
                   </th>
                 </tr>
@@ -257,7 +257,7 @@ export default {
   },
   methods: {
     //Lấy dữ liệu theo trang
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     //Load data
     loadStore: function (number) {
       this.offset = (number - 1) * this.quantityPage;
@@ -265,7 +265,7 @@ export default {
     },
 
     //Load lại dữ liệu
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     reLoad: async function () {
       await axios
         .get("http://localhost:52139/api/v1/Stores/paging", {
@@ -277,7 +277,7 @@ export default {
         .catch((error) => console.log(error));
     },
     // Sự kiện filter
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     btnFilter() {
       if (this.filterText != "") {
         axios
@@ -302,7 +302,7 @@ export default {
     },
 
     //Thay đổi giá trị của đối tượng store
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     changStore(value) {
       if (value == true) {
         this.store = {};
@@ -310,13 +310,13 @@ export default {
     },
 
     //Thay đổi data Snackbar
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     changeSnackBar(value) {
       this.dataSnackBar = value;
     },
 
     //Sự kiện hiện Snackbar
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     showSnackbar(value) {
       this.isShowSnackbar = value;
       // Ẩn Snackbar sau 1.5s khi đã hiện
@@ -326,7 +326,7 @@ export default {
     },
 
     //Sự kiện khi ấn button sửa
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     btnEditStore() {
       if (!this.store.storeId) {
         this.errorInSelection();
@@ -351,14 +351,14 @@ export default {
     },
 
     //Sự kiện thay đổi giá trị của biến isHideDialog để thực hiện mở đóng Dialog
-    // CreatedBy:
+    // CreatedBy: hhminh(13/4/2021)
     closeDialog(value) {
       this.store = {};
       this.isHideDialog = value;
     },
 
     //Sự kiện khi click vào Thêm mới/Sửa
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     btnAddStore() {
       // gán trạng thái là thêm
       this.formMode = 1;
@@ -370,9 +370,9 @@ export default {
         inputs[item].style.border = "";
         $(inputs[item]).attr("validate", false);
       });
-      // Gán giá tị fase cho biến isHideDialog để hiển thị Dialog thêm
+      // Gán giá trị false cho biến isHideDialog để hiển thị Dialog thêm
       this.isHideDialog = false;
-      //focus vào Input  CustomerCode
+      //focus vào Input CustomerCode
       setTimeout(() => {
         this.$refs.dialog.$refs.storeCode.focus();
       }, 0);
@@ -381,7 +381,7 @@ export default {
     },
 
     // Sự kiện thực hiện xóa
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     deleteStore(str) {
       axios
         .delete("http://localhost:52139/api/v1/stores/" + str.storeId)
@@ -398,7 +398,7 @@ export default {
     },
 
     //Sự kiện thay đổi giá trị của biến isHideConfirmDelete để thực hiện mở đóng Dialog Confirm
-    // CreatedBy:
+    // CreatedBy: hhminh(13/4/2021)
     btnDelete(value) {
       if (!this.store.storeId) {
         this.errorInSelection();
@@ -427,7 +427,7 @@ export default {
       }
     },
     //Sự kiện khi click vào một dòng của bảng dữ liệu
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     clickInRow(str) {
       this.rowSelected_el = str.storeId;
       // Gán đối tượng được chọn trong bảng cho đối tượng store
@@ -437,6 +437,7 @@ export default {
     },
 
     //Hàm thông báo lỗi bắt buộc chọn
+    //CreatedBy: hhminh(13/4/2021)
     errorInSelection() {
       this.dataSnackBar.msg = "Vui lòng chọn cửa hàng";
       this.dataSnackBar.status = false;
@@ -444,7 +445,7 @@ export default {
     },
 
     //Hàm load dữ liệu
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     async loadData() {
       await axios.get("http://localhost:52139/api/v1/stores").then((res) => {
         this.stores = res.data;
@@ -453,7 +454,7 @@ export default {
     },
 
     //Hàm định dạng trạng thái hoạt động
-    // CreatedBy: 
+    // CreatedBy: hhminh(13/4/2021)
     formatStatus(status) {
       if (status == 0) {
         status = "Đang hoạt động";
@@ -472,7 +473,7 @@ export default {
 
 <style scoped>
 .trSelected {
-  background-color: #777ba7 !important;
+  background-color: #e2e4f1!important;
   color: black;
 }
 </style>
