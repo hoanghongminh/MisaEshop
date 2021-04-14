@@ -9,7 +9,7 @@ namespace MISA.ApplicationCore.Services
     /// <summary>
     /// LỚp kế thừa BaseService và thực thi Interface IDistrictService của đối tượng quận/ huyện
     /// </summary>
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(14/4/2021)
     public class DistrictService:BaseService<District>, IDistrictService
     {
         #region DECLARE

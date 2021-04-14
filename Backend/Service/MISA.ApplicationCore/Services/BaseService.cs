@@ -9,7 +9,7 @@ namespace MISA.ApplicationCore.Services
     /// <summary>
     /// Lớp thực thi IBaseService
     /// </summary>
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(14/4/2021)
     /// <typeparam name="T">Đối tượng</typeparam>
     public class BaseService<T> : IBaseService<T> where T : BaseEntity
     {
@@ -91,6 +91,7 @@ namespace MISA.ApplicationCore.Services
 
         /// <summary>
         /// Validate dữ liệu thuộc tính của entity
+        /// CreateBy: hhminh(14/4/2021)
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>

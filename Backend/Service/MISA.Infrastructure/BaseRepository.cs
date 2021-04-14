@@ -135,6 +135,7 @@ namespace MISA.Infrastructure
 
         /// <summary>
         /// Chuyển kiểu guid sang string
+        /// CreateBy: hhminh(13/4/2021)
         /// </summary>
         /// <param name="entity"></param>
         /// <returns>DynamicParameters</returns>
@@ -150,12 +151,6 @@ namespace MISA.Infrastructure
                 if (propertyType == typeof(Guid) || propertyType == typeof(Guid?))
                 {
                     parameters.Add($"@{propertyName}", propertyValue, DbType.String);
-                }
-                else if (propertyType == typeof(bool) || propertyType == typeof(bool?))
-                {
-                    //Nếu không thành công thì comment dòng dưới và mở comment propertyType
-                    var dbValue = ((bool)propertyValue == true ? 1 : 0);
-                    parameters.Add($"@{propertyName}", /*propertyType*/ dbValue, DbType.Int32);
                 }
                 else
                 {

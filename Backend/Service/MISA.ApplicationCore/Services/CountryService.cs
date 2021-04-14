@@ -9,7 +9,7 @@ namespace MISA.ApplicationCore.Services
     /// <summary>
     /// LỚp kế thừa BaseService và thực thi Interface ICountryService
     /// </summary>
-    /// CreatedBy:
+    /// CreatedBy:hhminh(14/4/2021)
     public class CountryService:BaseService<Country>, ICountryService
     {
         #region DECLARE

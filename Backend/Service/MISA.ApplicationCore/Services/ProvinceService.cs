@@ -9,7 +9,7 @@ namespace MISA.ApplicationCore.Services
     /// <summary>
     /// LỚp kế thừa BaseService và thực thi Interface IProvinceService riêng của đối tượng tỉnh/thành phố.
     /// </summary>
-    /// CreatedBy: 
+    /// CreatedBy: hhminh(14/4/2021)
     public class ProvinceService:BaseService<Province>, IProvinceService
     {
         #region DECLARE

@@ -9,7 +9,7 @@ namespace MISA.ApplicationCore.Services
     /// <summary>
     /// LỚp kế thừa BaseService và thực thi Interface IStoreService riêng của đối tượng cửa hàng
     /// </summary>
-    /// CreatedBy:
+    /// CreatedBy:hhminh(14/4/2021)
     public class StoreService:BaseService<Store>, IStoreService
     {
         #region DECLARE
