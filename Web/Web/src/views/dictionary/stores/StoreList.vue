@@ -418,7 +418,7 @@ export default {
         this.errorInSelection();
       } else {
         console.log(this.store);
-        this.store.storeCode = this.store.storeCode + "CP";
+        this.store.storeCode = this.store.storeCode + "CH";
         axios
           .post("http://localhost:52139/api/v1/stores", this.store)
           .then(() => {
