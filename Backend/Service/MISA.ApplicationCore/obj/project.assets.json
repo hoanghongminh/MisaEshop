@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
       "projectName": "MISA.ApplicationCore",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

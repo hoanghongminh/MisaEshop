@@ -161,6 +161,7 @@ namespace MISA.ApplicationCore.Services
         }
         /// <summary>
         /// Hàm thực hiện kiểm tra dữ liệu/ Nghiệp vụ tùy chỉnh
+        /// CreateBy: hhminh(14/4/2021)
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
