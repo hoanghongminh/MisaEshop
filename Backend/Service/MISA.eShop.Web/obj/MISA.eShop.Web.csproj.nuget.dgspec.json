@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
         "projectName": "MISA.ApplicationCore",
-        "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\hhminh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhminh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
         "projectName": "MISA.eShop.Web",
-        "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
-        "packagesPath": "C:\\Users\\hhminh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\MISA.eShop.Web.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.eShop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhminh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,11 +82,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
+              "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
               },
-              "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
+              "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
               }
             }
           }
@@ -128,21 +128,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
         "projectName": "MISA.Infrastructure",
-        "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hhminh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhminh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,8 +156,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
+              "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
               }
             }
           }
@@ -200,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
