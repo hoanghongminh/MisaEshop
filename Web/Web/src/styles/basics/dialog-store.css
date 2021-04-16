@@ -31,8 +31,8 @@
         background-color: #fff;
         position: absolute;
 
-        width: 700px;
-        height: 480px;
+        width: 600px;
+        height: 479px;
         top: calc(50% - 240px);
         left: calc(50% - 350px);
       }
@@ -63,7 +63,7 @@
         background: url("../../assets/icon/common-icon.png") no-repeat -252px -127px;
         width: 17px;
         height: 16px;
-        margin-right: 11px;
+        margin-right: 2px;
         margin-left: 2px;
       }
       .form-header .btn-x .icon-x:hover {
@@ -94,9 +94,9 @@
       .m-dialog input[type="text"],
       .m-dialog textarea,
       .m-dialog select {
-        width: 81%;
-        margin-left:10px;
-        height: 40px;
+        width: 79%;
+        margin-left:20px;
+        height: 35px;
         padding: 10px;
         border-radius: 4px;
         box-sizing: border-box;
@@ -135,13 +135,13 @@
         width: 48%;
       }
       .store-right .input-title {
-        width: 23%;
+        width: 24%;
         margin-top: 16px;
-        margin-right: 26px;
+        margin-right: 17px;
       }
       .input-notrequied {
-        width: 64% !important;
-        margin-left: 4px !important;
+        width: 169px !important;
+        margin-left: 14px !important;
         margin-top: 10px !important;
       }
 /* footer-dialog */
@@ -183,7 +183,7 @@
         border-radius: 4px;
         margin-right: 10px;
         height: 35px;
-        width: auto;
+        width: 65.45px;
         outline: none;
         border: none;
       }
@@ -193,7 +193,7 @@
         padding-right: 16px;
       }
       .form-footer .store-right-footer .btn-add {
-        width: 165px;
+        width: 138px;
         background-color: white;
         border: 2px solid #777ba7;
         padding-left: 16px;
@@ -218,7 +218,8 @@
         background: url("../../assets/icon/common-icon.png") no-repeat -29px -130px;
         width: 11px;
         height: 11px;
-        margin-right: 7px;
+        margin-right: 5px;
+        margin-left: -19px;
       }
       .form-footer .store-right-footer .btn-cancel {
         width: 77px;

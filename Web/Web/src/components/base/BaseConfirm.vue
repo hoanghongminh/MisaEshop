@@ -66,6 +66,7 @@ export default {
 <style>
 @import "../../styles/basics/dialog-delete.css";
 #title-warn{
-   margin-left: 10px;
+   margin-left: 12px;
+   margin-right: 20px;
 }
 </style>

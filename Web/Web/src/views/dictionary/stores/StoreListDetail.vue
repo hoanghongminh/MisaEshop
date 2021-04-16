@@ -78,6 +78,7 @@
               v-model="store.address"
               required
               class="border-input-requied"
+              style="width: 457px; height: 80px"
             ></textarea>
             <div>
               <div class="talk-bubble" id="storeAddress_wrang">
@@ -194,11 +195,16 @@
         <div class="store-right-footer">
           <button class="btn-save item-center" @click="saveStore" tabindex="11">
             <i class="icon-save"></i>
-            <p style="color: white">Lưu</p>
+            <p style="color: white; font-size:12px; margin-right:-9px">Lưu</p>
           </button>
           <button class="btn-add item-center" tabindex="12" @click="btnSaveAdd">
             <i class="icon-add"></i>
-            <p class="text-insert">Lưu và thêm mới</p>
+            <p
+              class="text-insert"
+              style="margin-left: 2px; margin-right: -15px; white-space: nowrap; font-size: 12px"
+            >
+              Lưu và thêm mới
+            </p>
           </button>
           <div class="btn-cancel item-center" @click="btnClose" tabindex="13">
             <i class="icon-x"></i>
@@ -426,7 +432,7 @@ export default {
 </script>
 
 <style>
-  /* css cho tooltip */
+/* css cho tooltip */
 .isHideToolTip {
   display: none;
 }
@@ -487,7 +493,16 @@ export default {
     opacity: 0;
   }
 }
-.text-cancel{
-  margin-right: -2px;
+.text-cancel {
+  margin-right: 3px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+/* .black{
+  width: 457px;
+  height: 80px;
+} */
+.btn-x{
+  margin-right: 13px;
 }
 </style>

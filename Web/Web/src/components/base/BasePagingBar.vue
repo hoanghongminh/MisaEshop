@@ -36,6 +36,7 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: "BasePaginingBar",
   data() {
@@ -68,6 +69,17 @@ export default {
         this.$emit("loadData", this.Page);
       }
     },
+    //Hàm load dữ liệu
+    // CreatedBy: hhminh(13/4/2021)
+    btnRefresh() {
+      this.loadData();
+    },
+    async loadData() {
+      await axios.get("http://localhost:52139/api/v1/stores").then((res) => {
+        this.stores = res.data;
+        this.showLoading = false;
+      });
+    },
     //Xử lí khi về cuối trang
     // CreatedBy: hhminh(14/4/2021)
     handleLastPage: function () {
@@ -84,7 +96,11 @@ export default {
       else this.$emit("loadData", this.Page);
     },
   },
+  created() {
+    this.loadData();
+  },
 };
+
 </script>
 <style>
 </style>

@@ -104,9 +104,10 @@
                     Trạng thái<br />
                     <select
                       class="search-group"
-                      v-model="filterStatus"
+                      v-model="filterStatus" @change="btnFilter"
                       title="Nhập trạng thái cửa hàng muốn tìm"
                     >
+                      <option value="2">Tất cả</option>
                       <option value="0">Đang hoạt động</option>
                       <option value="1">Đã đóng cửa</option>
                     </select>
@@ -201,7 +202,7 @@ export default {
       filterName: "",
       filterAddress: "",
       filterPhone: "",
-      filterStatus: 0,
+      filterStatus: 2,
       //Đối tượng chứa dữ liệu trong bảng
       stores: [],
       // Các biến chức năng
@@ -299,7 +300,11 @@ export default {
           .then((res) => {
             this.stores = res.data;
           });
-      } else {
+      } 
+      else if (this.filterText != "" && this.filterStatus === 2){
+        this.loadData();
+      }
+      else {
         this.loadData();
       }
     },
@@ -336,7 +341,7 @@ export default {
       } else {
         //Gán trạng thái là sửa
         this.formMode = 0;
-        this.isNameDialog = "Cập nhật cửa hàng";
+        this.isNameDialog = "Sửa cửa hàng";
         // gán lại border cho input
         var inputs = this.$refs.dialog.$refs;
         var array = Object.keys(inputs);
