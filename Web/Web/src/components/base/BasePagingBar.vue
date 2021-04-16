@@ -17,7 +17,7 @@
         <div class="paging-center-button" @click="handleLastPage" title="Đến trang cuối">
           <div class="m-paging-button pagi-icon-lastpage"></div>
         </div>
-        <div class="paging-center-button" title="Load lại trang">
+        <div class="paging-center-button" title="Load lại trang" @click="btnRefresh">
           <div
             class="m-paging-button pagi-icon-loadpage"
             style="width: 12px; height: 12px"

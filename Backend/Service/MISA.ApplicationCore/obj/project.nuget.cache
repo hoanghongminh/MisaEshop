@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RQCQ9YcaNjBgTOYF+0KrWdqzJR15bqt7ciacuauBN9dMAenYnljiBXbohGJDxefwhRrI0DG+g4qZdfTRjCI7MQ==",
+  "dgSpecHash": "ZOawZkDJGtTEOT8CGoKks3+Jkmsr7dqMRtUoS63Kc9cDSYAspsywz/R2L7oRQXAtcGfHNwpmHSn1ZbPn7gI6qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\EshopMisa\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\hhminh\\Desktop\\test\\MisaEshop\\Backend\\Service\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

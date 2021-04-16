@@ -43,6 +43,8 @@ td {
   width: 100px;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: Roboto!important;
+  font-size: 13px;
 }
 .s-table td {
   text-align: left !important;

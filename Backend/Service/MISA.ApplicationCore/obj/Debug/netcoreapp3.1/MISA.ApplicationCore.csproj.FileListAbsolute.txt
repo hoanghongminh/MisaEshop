@@ -42,3 +42,14 @@ C:\Users\Admin\Desktop\EshopMisa\MisaEshop\Backend\Service\MISA.ApplicationCore\
 C:\Users\Admin\Desktop\EshopMisa\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\EshopMisa\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
 C:\Users\Admin\Desktop\EshopMisa\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.Properties.Resources.resources
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.GenerateResource.cache
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\hhminh\Desktop\test\MisaEshop\Backend\Service\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb

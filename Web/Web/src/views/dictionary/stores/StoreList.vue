@@ -119,6 +119,9 @@
                   :key="store.storeId"
                   :class="{ trSelected: rowSelected_el === store.storeId }"
                   @click="clickInRow(store)"
+                  @dblclick=" btnEditStore"
+              
+                  
                 >
                   <td>{{ store.storeCode }}</td>
                   <td>{{ store.storeName }}</td>
@@ -450,6 +453,7 @@ export default {
       await axios.get("http://localhost:52139/api/v1/stores").then((res) => {
         this.stores = res.data;
         this.showLoading = false;
+  
       });
     },
 

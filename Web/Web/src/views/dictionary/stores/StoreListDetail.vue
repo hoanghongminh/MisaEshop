@@ -426,7 +426,7 @@ export default {
 </script>
 
 <style>
-/* css cho tooltip */
+  /* css cho tooltip */
 .isHideToolTip {
   display: none;
 }
@@ -488,6 +488,6 @@ export default {
   }
 }
 .text-cancel{
-  margin-right: 6px;
+  margin-right: -2px;
 }
 </style>
